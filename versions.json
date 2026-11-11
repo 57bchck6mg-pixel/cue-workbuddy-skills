@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "skills": {
+    "cue-youtube-deep-dive": {
+      "display_name": "YouTube 视频深度解析",
+      "version": "1.0.5",
+      "zip": "releases/cue-youtube-deep-dive-1.0.5.zip",
+      "sha256": "218d4ac879c3d90f8b1abd62278ba90c6d42694aed6697ae02469eb7a629b8c6"
+    }
+  },
+  "updated_at": "2026-11-11T15:15:12+08:00"
+}
