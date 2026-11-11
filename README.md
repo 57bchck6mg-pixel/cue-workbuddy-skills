@@ -16,7 +16,7 @@ releases/<slug>-<version>.zip      # 各版本技能包
 技能包内的 `scripts/check_skill_version.py` 会：
 
 1. 读取包内 `version.json` 得到当前版本；
-2. 拉取 `https://cdn.jsdelivr.net/gh/57bchck6mg-pixel/cue-workbuddy-skills@main/versions.json`（失败时回退 raw.githubusercontent.com）；
+2. 拉取 `https://raw.githubusercontent.com/57bchck6mg-pixel/cue-workbuddy-skills/main/versions.json`（失败时回退 cdn.jsdelivr.net）；
 3. 本地缓存 24 小时，失败静默放行；
 4. 若清单里的版本更高，交付完任务后由技能弹出更新询问。
 
